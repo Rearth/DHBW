@@ -1,4 +1,4 @@
-package de.dhbw.ui.events;
+package sem02.de.dhbw.events;
 
 
 import java.awt.Button;
