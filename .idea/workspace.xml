@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68abafce-4297-41bc-82db-78e6c3e9d48b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/Archive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/Lottery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/threads/TrafficLight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/enums/Months.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/de/dhbw/ui/events/BinaryCounter$binaryTicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/de/dhbw/ui/events/BinaryCounter$binaryTicker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java/sem02/de/dhbw/paint/Election$ElectionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java/sem02/de/dhbw/paint/Election$ElectionPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sem02/de/dhbw/events/BinaryCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/events/BinaryCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sem02/de/dhbw/paint/Election.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/paint/Election.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +41,8 @@
       <file leaf-file-name="DancingText.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="295">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,33 +50,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrafficLight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/TrafficLight.java">
+      <file leaf-file-name="CardGame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="2214">
+              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#458#470#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+                <element signature="e#1101#1102#0" expanded="true" />
+                <element signature="e#1328#1329#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1576#1577#0" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
+                <element signature="e#2152#2153#0" expanded="true" />
+                <element signature="e#2245#2246#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+            <state relative-caret-position="351">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#1337#1344#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Months.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/enums/Months.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -108,9 +119,11 @@
         <option value="$PROJECT_DIR$/src/sem02/de/dhbw/collections/Lottery.java" />
         <option value="$PROJECT_DIR$/src/sem02/de/dhbw/collections/Archive.java" />
         <option value="$PROJECT_DIR$/src/sem01/de/dhbw/threads/DancingText.java" />
-        <option value="$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java" />
         <option value="$PROJECT_DIR$/src/sem02/de/dhbw/threads/TrafficLight.java" />
         <option value="$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/sem02/de/dhbw/enums/Months.java" />
+        <option value="$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java" />
+        <option value="$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java" />
       </list>
     </option>
   </component>
@@ -173,7 +186,8 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dhbw" type="462c0819:PsiDirectoryNode" />
-              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+              <item name="Archive.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Java" type="b2602c69:ProjectViewProjectNode" />
@@ -181,13 +195,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dhbw" type="462c0819:PsiDirectoryNode" />
               <item name="paint" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dhbw" type="462c0819:PsiDirectoryNode" />
-              <item name="threads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -218,9 +225,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinaryTree">
-    <configuration name="Archive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.collections.Archive" />
+  <component name="RunManager" selected="Application.CardGame">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.collections.BinaryTree" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +236,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.collections.BinaryTree" />
+    <configuration name="CardGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.collections.CardGame" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -249,12 +256,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.collections.Lottery" />
+    <configuration name="Months" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.enums.Months" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sem02.de.dhbw.collections.*" />
+          <option name="PATTERN" value="sem02.de.dhbw.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,19 +277,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Lottery" />
-      <item itemvalue="Application.Archive" />
       <item itemvalue="Application.DancingText" />
       <item itemvalue="Application.TrafficLight" />
       <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.Months" />
+      <item itemvalue="Application.CardGame" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CardGame" />
+        <item itemvalue="Application.DancingText" />
+        <item itemvalue="Application.Months" />
         <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.TrafficLight" />
-        <item itemvalue="Application.DancingText" />
-        <item itemvalue="Application.Archive" />
-        <item itemvalue="Application.Lottery" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +306,12 @@
       <workItem from="1528360321600" duration="5389000" />
       <workItem from="1528955994248" duration="771000" />
       <workItem from="1528958379210" duration="4221000" />
-      <workItem from="1529302450689" duration="5407000" />
+      <workItem from="1529302450689" duration="7777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15788000" />
+    <option name="totallyTimeSpent" value="18158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1404" extended-state="6" />
@@ -316,15 +323,15 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039065" side_tool="true" weight="0.3996777" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20547946" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960938" visible="true" weight="0.20547946" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,7 +339,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3996777" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49960938" weight="0.3996777" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -348,7 +355,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -520,9 +535,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/Container.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="1021" column="16" selection-start-line="1021" selection-start-column="16" selection-end-line="1021" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/ComponentFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/TrafficLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/Archive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
+        <state relative-caret-position="-1350">
           <caret line="112" column="57" selection-start-line="112" selection-start-column="57" selection-end-line="112" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -541,53 +590,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/awt/Container.class">
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/enums/Months.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="1021" column="16" selection-start-line="1021" selection-start-column="16" selection-end-line="1021" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/ComponentFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="351">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="295">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/TrafficLight.java">
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="2214">
+          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#1337#1344#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#458#470#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1576#1577#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
+            <element signature="e#2245#2246#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -61,7 +61,7 @@ public class BinaryTree<T extends Comparable> implements Comparable<T>{
 
     public static void main(String[] args) {
 
-        BinaryTree<Float> root = new BinaryTree<Float>(0f);
+        BinaryTree<Float> root = new BinaryTree<Float>(0.5f);
 
         for (int i = 0; i < 10; i++) {
             float f = (float) Math.random();
@@ -71,6 +71,7 @@ public class BinaryTree<T extends Comparable> implements Comparable<T>{
         }
 
         System.out.println(root.traverse());
+        System.out.println(root.left.getValue());
 
     }
 
