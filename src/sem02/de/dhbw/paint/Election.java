@@ -93,7 +93,7 @@ public class Election extends JFrame {
             for (party part : parties) {
                 int xH = (int) ((float) height * part.percent * (1 / parties.get(0).percent));
                 g.setColor(part.color.darker().darker());
-                for (int j = 0; j < 300; j++) {
+                for (int j = 0; j < 15; j++) {
                     g.fillRect(startX + partWidth * i + j, startY + (height - xH) - (int) (j * 1.5f), partWidth - 25, xH);
                 }
 

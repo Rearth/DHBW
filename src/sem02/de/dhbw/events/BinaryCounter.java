@@ -67,11 +67,13 @@ public class BinaryCounter extends JFrame {
             ImageIcon imgOff = new ImageIcon("off.png");
             ImageIcon imgOn = new ImageIcon("on.png");
 
-            but.setIcon(imgOff);
-            but.setSelectedIcon(imgOn);
 
             label = new JLabel("2^" + count);
             but = new JToggleButton();
+
+            but.setIcon(imgOff);
+            but.setSelectedIcon(imgOn);
+
             but.setPreferredSize(new Dimension(100, 40));
             but.addActionListener(ae -> reCalc());
 
