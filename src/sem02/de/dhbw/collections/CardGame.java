@@ -8,28 +8,28 @@ public class CardGame {
     public static void main(String[] args) {
 
         System.out.println("Starting...");
-        Spielkarte harz7 = new Spielkarte("HERZ", "SIEBEN");
-        Kartenspiel datSpiel = new Kartenspiel();
-        datSpiel.shuffle();
+        gameCard heart6 = new gameCard("HERZ", "SIEBEN");
+        Game game = new Game();
+        game.shuffle();
         for (int i = 0; i< 10; i++){
-            Spielkarte temp = datSpiel.get();
+            gameCard temp = game.get();
             System.out.println(i + 1 + "te Karte: " + temp.toString());
-            if (temp.compareTo(harz7) == -1){
+            if (temp.compareTo(heart6) == -1){
                 System.out.println(" - Karte ist kleiner als Herz 7");
             }
             else {
                 System.out.println(" - Karte ist größer als Herz 7");
             }
         }
-        datSpiel.sort();
+        game.sort();
         System.out.println("\n");
-        datSpiel.ausgabe();
+        game.print();
 
     }
 
-    public enum Farbe {KARO("Karo"),HERZ("Herz"), PIK("Pik"), KREUZ("Kreuz");
+    public enum Color {KARO("Karo"),HERZ("Herz"), PIK("Pik"), KREUZ("Kreuz");
         public String name;
-        private Farbe(String name) {
+        Color(String name) {
             this.name = name;
         }
         public String getName(){
@@ -37,61 +37,58 @@ public class CardGame {
         }
     }
 
-    public static class Kartenspiel {
-        ArrayList<Spielkarte> datStapel = new ArrayList<Spielkarte>();
+    public static class Game {
+        ArrayList<gameCard> cardStack = new ArrayList<gameCard>();
 
-        public Kartenspiel(){
-            for (Farbe wat : Farbe.values()){
-                for (Kartenwert dat : Kartenwert.values()){
-                    datStapel.add(new Spielkarte(wat.getName(), (dat.name().substring(0,1))+ dat.name().substring(1).toLowerCase()));
+        public Game(){
+            for (Color col : Color.values()){
+                for (cardValue dat : cardValue.values()){
+                    cardStack.add(new gameCard(col.getName(), (dat.name().substring(0,1))+ dat.name().substring(1).toLowerCase()));
                 }
             }
         }
 
-        public void ausgabe(){
-            for (Spielkarte k : datStapel){
+        public void print(){
+            for (gameCard k : cardStack){
                 System.out.println(k.toString());
             }
         }
 
         public void shuffle(){
-            Collections.shuffle(datStapel);
+            Collections.shuffle(cardStack);
         }
 
         public void sort(){
-            Collections.sort(datStapel);
+            Collections.sort(cardStack);
         }
 
-        public Spielkarte get(){
-            Spielkarte top = datStapel.get(datStapel.size()-1);
-            datStapel.remove(datStapel.size()-1);
+        public gameCard get(){
+            gameCard top = cardStack.get(cardStack.size()-1);
+            cardStack.remove(cardStack.size()-1);
             return top;
         }
 
-        public ArrayList<Spielkarte> all(){
-            return datStapel;
+        public ArrayList<gameCard> all(){
+            return cardStack;
         }
     }
 
-    public enum Kartenwert {SIEBEN("7"), ACHT("8"), NEUN("9"), BUBE("Bube"), DAME("Dame"), KÖNIG("König"), ZEHN("10"), ASS("Ass");
+    public enum cardValue {SIEBEN("7"), ACHT("8"), NEUN("9"), BUBE("Bube"), DAME("Dame"), KÖNIG("König"), ZEHN("10"), ASS("Ass");
         public String wert;
-        private Kartenwert(String wert) {
+        cardValue(String wert) {
             this.wert = wert;
         }
     }
 
-    public static class Spielkarte implements Comparable<Spielkarte> {
+    public static class gameCard implements Comparable<gameCard> {
         public String kartenfarbe;
         public String kartenwert;
         public int vergleichswert;
 
-        public Spielkarte(String farbe, String wert){
+        public gameCard(String farbe, String wert){
             this.kartenfarbe = farbe;
             this.kartenwert = wert;
-            vergleichswert = (Farbe.valueOf(kartenfarbe.toUpperCase()).ordinal() * 10) + (Kartenwert.valueOf(kartenwert.toUpperCase()).ordinal());
-        }
-        public Spielkarte(){
-
+            vergleichswert = (Color.valueOf(kartenfarbe.toUpperCase()).ordinal() * 10) + (cardValue.valueOf(kartenwert.toUpperCase()).ordinal());
         }
 
         public String toString(){
@@ -99,7 +96,7 @@ public class CardGame {
         }
 
         @Override
-        public int compareTo(Spielkarte o) {
+        public int compareTo(gameCard o) {
             if ((this.vergleichswert - o.vergleichswert) >= 0){
                 return 1;
             }
