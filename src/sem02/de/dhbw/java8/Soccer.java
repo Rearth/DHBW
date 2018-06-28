@@ -2,7 +2,6 @@ package sem02.de.dhbw.java8;
 
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +12,6 @@ public class Soccer {
     private Soccer () {
 
         List<Player> players = new ArrayList<>();
-        List<String> strings = null;
         try {
             Files.readAllLines(Paths.get("/home/dwaidner/DHBW/Java/playerDat.txt")).stream()
                     .map(s -> s.split(";"))

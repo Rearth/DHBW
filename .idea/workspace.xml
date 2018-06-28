@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68abafce-4297-41bc-82db-78e6c3e9d48b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/java8/Soccer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxeample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxeample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxemaple.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxemaple.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sem02/de/dhbw/java8/Soccer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sem02/de/dhbw/java8/Soccer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,48 +51,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardGame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java">
+      <file leaf-file-name="fxeample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxeample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
+            <state relative-caret-position="351">
+              <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#845#846#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#919#920#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Soccer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/java8/Soccer.java">
+      <file leaf-file-name="fxemaple.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxemaple.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Months.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/enums/Months.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="243">
+              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -101,6 +93,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -122,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java" />
         <option value="$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java" />
         <option value="$PROJECT_DIR$/src/sem02/de/dhbw/java8/Soccer.java" />
+        <option value="$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxeample.java" />
+        <option value="$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxemaple.fxml" />
       </list>
     </option>
   </component>
@@ -147,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,18 +173,31 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dhbw" type="462c0819:PsiDirectoryNode" />
+              <item name="fx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dhbw" type="462c0819:PsiDirectoryNode" />
               <item name="java8" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="/usr/lib/jvm/java-8-openjdk-amd64/lib/javafx-mx.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -208,17 +216,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Soccer">
-    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.collections.BinaryTree" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sem02.de.dhbw.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.fxeample">
     <configuration name="CardGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.collections.CardGame" />
       <module name="Java" />
@@ -259,20 +257,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="fxeample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sem02.de.dhbw.fx.fxeample" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sem02.de.dhbw.fx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
       <item itemvalue="Application.DancingText" />
-      <item itemvalue="Application.BinaryTree" />
       <item itemvalue="Application.Months" />
       <item itemvalue="Application.CardGame" />
       <item itemvalue="Application.Soccer" />
+      <item itemvalue="Application.fxeample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fxeample" />
+        <item itemvalue="Application.DancingText" />
         <item itemvalue="Application.Soccer" />
         <item itemvalue="Application.CardGame" />
         <item itemvalue="Application.Months" />
-        <item itemvalue="Application.DancingText" />
-        <item itemvalue="Application.BinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -293,11 +301,13 @@
       <workItem from="1529561393330" duration="1623000" />
       <workItem from="1529564663202" duration="903000" />
       <workItem from="1529570871722" duration="2211000" />
+      <workItem from="1530171172334" duration="475000" />
+      <workItem from="1530171674095" duration="2410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24825000" />
+    <option name="totallyTimeSpent" value="27710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1404" extended-state="6" />
@@ -313,7 +323,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960938" visible="true" weight="0.20547946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960938" visible="true" weight="0.39161965" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -353,33 +363,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/events/ShellGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/paint/Election.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="60" selection-start-line="23" selection-start-column="8" selection-end-line="25" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -714,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -742,9 +715,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/java8/Soccer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/collections/CardGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
+        <state relative-caret-position="610">
           <caret line="94" column="45" selection-start-line="94" selection-start-column="45" selection-end-line="94" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -752,15 +735,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/java8/Soccer.java">
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/fxexmaple.java" />
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/threads/DancingText.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="513">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxeample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sem02/de/dhbw/fx/fxemaple.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
