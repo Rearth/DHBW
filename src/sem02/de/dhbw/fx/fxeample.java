@@ -22,6 +22,7 @@ public class fxeample extends Application {
     @FXML
     void doClose(ActionEvent e) {
         System.out.println("Closing");
+        System.exit(0);
     }
 
     @Override
