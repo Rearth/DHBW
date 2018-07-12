@@ -1,4 +1,4 @@
-package sem02.de.dhbw;
+package sem02.de.dhbw.ui;
 import java.awt.event.ActionEvent;
 import java.io.BufferedWriter;
 import java.io.File;

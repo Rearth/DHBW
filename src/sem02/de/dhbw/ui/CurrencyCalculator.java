@@ -1,4 +1,4 @@
-package sem02.de.dhbw;
+package sem02.de.dhbw.ui;
 
 import javax.swing.*;
 import java.awt.*;
